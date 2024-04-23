@@ -37,7 +37,7 @@ window.addEventListener('scroll', function() {
         const topPosition = (window.innerHeight - intro.offsetHeight) / 2;
         intro.style.top = `${topPosition*0.85}px`;
     
-        intro.style.animation = 'slideIn 0.5s ease forwards';
+        intro.classList.add("animate__fadeInUp");
     } 
     else {
       intro.style.animation = '';
