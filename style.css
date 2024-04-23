@@ -137,7 +137,26 @@
   .project-cover:hover {
     transform: scale(1.1); /* Example transformation, adjust as needed */
   }
+  /* Scroll Top*/
+
+  #scroll-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 10vh;
+    right: 5vw;
+    background-color:#F5F5F5;
+    border: none;
+    border-radius: 50%;
+    max-width: 64px;
+    max-height: 64px;
+    width: 5vw;
+    height: 5vw;
+    cursor: pointer;
+  }
   
+  #scroll-top-btn:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
   
   /* Modal CSS */
   
