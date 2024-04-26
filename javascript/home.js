@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   projectImages.forEach(image => {
       const imageName = image.src.split('/').pop().split('.')[0]; // Extract image name without extension
-      const imageColor = `img/${imageName}-color.png`; // Colored image source
+      const imageColor = `assets/img/${imageName}-color.png`; // Colored image source
 
       // Preload colored image
       const preloadImage = new Image();
@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // Add event listener for mouseout event
       image.addEventListener('mouseout', function() {
-          this.src = `img/${imageName}.png`; // Restore original source
+          this.src = `assets/img/${imageName}.png`; // Restore original source
       });
   });
 });
